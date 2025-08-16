@@ -33,7 +33,7 @@ export default function NavBar() {
             <div className="bg-black text-white flex justify-between p-2">
                 <div className="ml-150 ">
                     <p className="mt-3">Summer Sale For All Swim Suits And Free Express Delivery- OFF 50%
-                        <Link href="/" className="underline ml-7">Shop Now</Link></p>
+                        <Link href="/signup" className="underline ml-7">Shop Now</Link></p>
                 </div>
                 <div className="mr-10">
                     <button
@@ -69,10 +69,10 @@ export default function NavBar() {
                     Exclusive
                 </Link>
                 <nav className="hidden md:flex gap-8 text-gray-700 font-medium">
-                    <Link href="/shop" className="hover:text-black">Shop</Link>
-                    <Link href="/sale" className="hover:text-black">On Sale</Link>
-                    <Link href="/new" className="hover:text-black">New Arrivals</Link>
-                    <Link href="/brands" className="hover:text-black">Brands</Link>
+                    <Link href="/signup" className="hover:text-black">Shop</Link>
+                    <Link href="/" className="hover:text-black">On Sale</Link>
+                    <Link href="/" className="hover:text-black">New Arrivals</Link>
+                    <Link href="/" className="hover:text-black">Brands</Link>
                 </nav>
                 <div className="flex items-center gap-4">
                     <div className="relative hidden md:block">

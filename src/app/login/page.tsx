@@ -5,7 +5,7 @@ import Image from "next/image";
 import NavBar from "../Shared-components/Navigation";
 import Footer from "../Shared-components/Footer";
 
-export default function SignUp() {
+export default function Login() {
   return (
     <div>
       <NavBar />
@@ -21,18 +21,15 @@ export default function SignUp() {
         </div>
 
         <div className="mt-20 w-full max-w-md">
-          <h3 className="text-5xl font-semibold">Create an account</h3>
+          <h3 className="text-5xl font-semibold">Log in to Exclusive</h3>
           <p className="text-lg mt-3 text-gray-600">Enter your details below</p>
 
           <div className="mt-10 flex flex-col gap-6">
             <input
-              placeholder="Name"
+              placeholder="Email or Phone Number"
               className="border-b border-gray-400 focus:border-black outline-none py-2 w-full"
             />
-            <input
-              placeholder="Email Address"
-              className="border-b border-gray-400 focus:border-black outline-none py-2 w-full"
-            />
+           
             <input
               type="password"
               placeholder="Password"
@@ -40,17 +37,14 @@ export default function SignUp() {
             />
           </div>
 
-          <div className="mt-10 flex flex-col gap-4">
-            <button className="bg-red-600 text-white py-3 rounded-md hover:bg-red-700 transition">
-              Create Account
-            </button>
-            <button className="border border-black text-black py-3 rounded-md hover:bg-gray-100 transition">
-              Sign Up with Google
-            </button>
+          <div className="mt-10 flex  gap-10 justify-between">
+            <button className="bg-red-600 text-white py-3 w-45 rounded-md hover:bg-red-700 transition">
+Login            </button>
+            <Link href="/" className="underline text-red-600 mt-3">Forgot Password?</Link>
+
+            
           </div>
-          <p className="mt-5 mr-1">Already have an account?  
-            <Link href="/login" className="underline">Log in</Link>
-          </p>
+          
         </div>
       </div>
       <Footer />

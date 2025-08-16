@@ -66,16 +66,12 @@ function Footer() {
                     <div className="flex   items-center justify-between space-x-4">
                             <Image src="/qrCode.png"
                                  alt='qr code'
-                                 width={100}
-                                 height={100}/>
+                                 width={200}
+                                 height={200}/>
 
                              <div>
                                  <div className='flex border  border-white px-2 rounded-md w-50 '>
-                                      <Image src="/playstore.png"
-                                          alt='qr code'
-                                          width={30}
-                                          height={30}
-                                          className='mr-8'/>
+                                     
 
                                      <div className='leading-5 py-2'>
                                              <p className=' text-2xs'>GET IT ON</p>
@@ -84,11 +80,7 @@ function Footer() {
                                   </div>
 
                                   <div  className='flex border  border-white px-2 rounded-md mt-3.5'>
-                                       <Image src="/appleLogo.png"
-                                         alt='qr code'
-                                         width={30}
-                                         height={30}
-                                          className='mr-8 py-1'/>
+                                     
 
                                        <div className='leading-5 py-2'>
                                             <p className=''>Download on the </p>
@@ -100,7 +92,7 @@ function Footer() {
                              </div>
                      </div>
 
-                     <div className='flex  justify-between mt-3 '>
+                     <div className='flex  gap-10 mt-3 ml-5 '>
                         <FontAwesomeIcon icon={faFacebook} width={30}/>
                         <FontAwesomeIcon icon={faTwitter} width={30}/>
                         <FontAwesomeIcon icon={faInstagram} width={30}/>
