@@ -18,7 +18,7 @@ function Homepage() {
         <div>
             <NavBar />
 
-            <div className="ml-60 mb-40 w-350">
+            <div className="ml-55 mb-40 w-350">
                 <HeroSection />
 
                 <CountdownTimer />

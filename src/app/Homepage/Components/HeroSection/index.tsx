@@ -22,7 +22,7 @@ export default function HeroSection() {
     {
       id: 3,
       img: "/categories.png",
-      title: "Home Essentials",
+      title: "Speakers",
       subtitle: "Save Big Today",
     },
   ];

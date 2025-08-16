@@ -10,7 +10,7 @@ const Button = (
         const variantSwitch = (variant:string) =>{
             switch(variant){
                 case "primary":
-                    return "bg-green-700  text-white"
+                    return "bg-black  text-white"
                 case "bordered":
                     return " text-black border border-black text-black"
                 default:
