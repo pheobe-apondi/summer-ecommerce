@@ -41,13 +41,13 @@ export default function HeroSection() {
       
       <div className="w-1/4 text-black border border-gray-400">
         <ul className="space-y-3 text-sm">
-          <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Woman's Fashion</Link></li>
-          <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Men's Fashion</Link></li>
+          <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Women&apos;s Fashion</Link></li>
+          <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Men&apos;s Fashion</Link></li>
           <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Electronics</Link></li>
           <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Home & Lifestyle</Link></li>
           <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Medicine</Link></li>
           <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Sports & Outdoor</Link></li>
-          <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Baby's & Toys</Link></li>
+          <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Baby&apos;s & Toys</Link></li>
           <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Groceries & Pets</Link></li>
           <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Health & Beauty</Link></li>
         </ul>

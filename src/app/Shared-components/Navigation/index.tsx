@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { MagnifyingGlassIcon, ShoppingCartIcon, HeartIcon, UserIcon } from "@heroicons/react/24/outline";
-import { use, useState } from "react";
+import {  useState } from "react";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

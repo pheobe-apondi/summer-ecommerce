@@ -15,7 +15,7 @@ interface ProductProps {
     productTitle: string,
     price: string,
     reviews: String,
-    rating: Number;
+    rating: number;
 
 
 

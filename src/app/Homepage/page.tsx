@@ -4,7 +4,6 @@ import NavBar from "../Shared-components/Navigation";
 import Benefits from "./Components/Benefits/page";
 import ProductCategory from "./Components/Categories";
 import CategoryCard from "./Components/CategoryCard";
-import CategoryType from "./Components/CategoryCard";
 import CountdownTimer from "./Components/FlashSales";
 import HeroSection from "./Components/HeroSection";
 import NewArrivals from "./Components/New-Arrivals/arrival";

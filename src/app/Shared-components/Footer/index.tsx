@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLink, faPaperPlane  } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane  } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter ,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
  

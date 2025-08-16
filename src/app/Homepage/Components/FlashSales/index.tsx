@@ -5,7 +5,6 @@ import ProductCard from "../ProductCard/productCard";
 import Button from "@/app/Shared-components/Button";
 
 export default function CountdownTimer() {
-  // keep target date constant using useRef (doesn’t re-render)
   const targetDate = useRef(new Date().getTime() + 5 * 24 * 60 * 60 * 1000);
 
   const [timeLeft, setTimeLeft] = useState({
