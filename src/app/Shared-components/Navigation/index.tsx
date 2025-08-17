@@ -69,10 +69,10 @@ export default function NavBar() {
                     Exclusive
                 </Link>
                 <nav className="hidden md:flex gap-8 text-gray-700 font-medium">
-                    <Link href="/signup" className="hover:text-black">Shop</Link>
-                    <Link href="/" className="hover:text-black">On Sale</Link>
-                    <Link href="/" className="hover:text-black">New Arrivals</Link>
-                    <Link href="/" className="hover:text-black">Brands</Link>
+                    <Link href="/" className="hover:text-black">Home</Link>
+                    <Link href="/" className="hover:text-black">Contact</Link>
+                    <Link href="/" className="hover:text-black">About</Link>
+                    <Link href="/signup" className="hover:text-black">SIgn Up</Link>
                 </nav>
                 <div className="flex items-center gap-4">
                     <div className="relative hidden md:block">

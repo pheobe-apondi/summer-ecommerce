@@ -38,7 +38,7 @@ export default function HeroSection() {
 
   return (
     <div className="flex justify-between mt-20 mb-10 relative">
-      
+
       <div className="w-1/4 text-black border border-gray-400">
         <ul className="space-y-3 text-sm">
           <li><Link href="/" className="block hover:bg-red-600 hover:text-white px-3 py-2 rounded">Women&apos;s Fashion</Link></li>
@@ -58,9 +58,8 @@ export default function HeroSection() {
         {slides.map((slide, index) => (
           <div
             key={slide.id}
-            className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
-              index === current ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${index === current ? "opacity-100" : "opacity-0"
+              }`}
           >
             <Image
               src={slide.img}
@@ -78,7 +77,9 @@ export default function HeroSection() {
               <h3 className="mt-4 text-2xl font-semibold">{slide.subtitle}</h3>
 
               <div className="mt-4">
-                <Button buttonText="Shop Now" variant="" />
+                <Link href="/signup">
+                  <Button buttonText="Shop Now" variant="" />
+                </Link>
               </div>
             </div>
           </div>
@@ -90,9 +91,8 @@ export default function HeroSection() {
             <button
               key={index}
               onClick={() => setCurrent(index)}
-              className={`w-3 h-3 rounded-full ${
-                current === index ? "bg-white" : "bg-gray-400"
-              }`}
+              className={`w-3 h-3 rounded-full ${current === index ? "bg-white" : "bg-gray-400"
+                }`}
             />
           ))}
         </div>
